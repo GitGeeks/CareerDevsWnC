@@ -81,7 +81,10 @@ function addTodo(todo) {
 
 
 
-
+function changeTodo(position, newValue) {
+	todos[position] = newValue;
+	displayTodos();
+}
 
 
 
