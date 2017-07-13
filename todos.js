@@ -81,22 +81,29 @@ function addTodo(todo) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+// todos[0] = 'item 1 updated'
+// todos
+
+
+
+
+
+
 function changeTodo(position, newValue) {
 	todos[position] = newValue;
 	displayTodos();
 }
-
-
-
-
-
-
-
-
-
-
-todos[0] = 'item 1 updated'
-todos
 
 // it should have a FUNCTION to delete todos
 
@@ -118,7 +125,18 @@ todos
 
 
 
-todos.splice(0,1)
-todos
-todos.splice(3,1)
-todos.splice(3,1)
+// todos.splice(0,1)
+// todos
+// todos.splice(3,1)
+// todos.splice(3,1)
+
+
+
+
+function deleteTodo(position) {
+	displayTodos();
+	todos.splice(position, 1);
+	displayTodos();
+}
+
+
