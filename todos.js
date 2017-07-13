@@ -34,7 +34,7 @@ var todos = ['item 1', 'item 2', 'item 3']
 
 
 
-var todos = ['item 1', 'item 2', 'item 3']
+
 
 // it should have a way to add todos
 
@@ -108,3 +108,37 @@ todos.splice(0,1)
 todos
 todos.splice(3,1)
 todos.splice(3,1)
+
+// version 2 - Functions
+
+var todos = ['item 1', 'item 2', 'item 3']
+
+// it should have a function to display todos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// it should have a function to add todos
+
+
+// it should have a function to change todos
+
+
+// it should have a function to delete todos
+
+
+
+
