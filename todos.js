@@ -6,6 +6,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 var todos = ['item 1', 'item 2', 'item 3']
 
 // it should have a way to display todos
@@ -14,9 +24,33 @@ var todos = ['item 1', 'item 2', 'item 3']
 
 
 
-var todos = ['item 1', 'item 2', 'item 3']
+
+
+
+
+
+
+
+
+
+
+
 
 // it should have a way to add todos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -33,6 +67,20 @@ todos.push('item 5')
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 todos[0] = 'item 1 updated'
 todos
 
@@ -42,8 +90,21 @@ todos
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 todos.splice(0,1)
 todos
 todos.splice(3,1)
 todos.splice(3,1)
-todos.splice(3,2)
