@@ -46,3 +46,4 @@ todos.splice(0,1)
 todos
 todos.splice(3,1)
 todos.splice(3,1)
+todos.splice(3,2)
