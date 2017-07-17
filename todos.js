@@ -1,191 +1,44 @@
 // begin
-// Version 1 - Arrays -- requirements
+// Version 3 - Objects/Models -- properties (variables), methods (functions)
+
 // it should have a way to store todos AS OBJECTS
 
-
+// it should have a METHOD to display todos AS OBJECTS
 	
+// it should have a METHOD to add todos AS OBJECTS
+
+// it should have a METHOD to change todos AS OBJECTS
+
+// it should have a METHOD to delete todos in the OBJECT
 
 
+todoList = {
 
+	todos: ['item 1', 'item 2', 'item 3'], 
 
+	displayTodos: function() {
+		console.log("My todos: ", this.todos)
+	},
 
+	addTodo: function(todo) {
+		console.log(this.displayTodos());
+		console.log(this.todos.push(todo));
+		console.log(this.displayTodos());
+	},
 
+	changeTodo: function(position, change) {
+		console.log(this.todos[position]);
+		this.todos[position] = change;
+		console.log(this.todos[position]);
+	},
 
-
-
-
-
-
-var todos = ['item 1', 'item 2', 'item 3']
-
-// it should have a FUNCTION to display todos
-
-
-
-
-
-
-
-
-
-
-
-
-function displayTodos() {
-	console.log('My todos:', todos)
+	deleteTodo: function(position) {
+		console.log(this.displayTodos());
+		this.todos.splice(position, 1);
+		console.log(this.displayTodos());
+	}
 
 }
 
 
 
-// it should have a FUNCTION to add todos
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 596e2642947d29d64ea4f09f525dadb1c33cea50
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// todos.push('item 4')
-// todos.push('item 5')
-
-
-
-
-
-function addTodo(todo) {
-	todos.push(todo);
-	displayTodos();
-}
-
-// it should have a FUNCTION to change todos
-// todos[0]
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-// todos[0] = 'item 1 updated'
-// todos
-
-
-
-
-
-
-function changeTodo(position, newValue) {
-	todos[position] = newValue;
-	displayTodos();
-}
-
-// it should have a FUNCTION to delete todos
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// todos.splice(0,1)
-// todos
-// todos.splice(3,1)
-// todos.splice(3,1)
-
-
-
-
-function deleteTodo(position) {
-	displayTodos();
-	todos.splice(position, 1);
-	displayTodos();
-}
-
-
-=======
-todos.splice(0,1)
-todos
-todos.splice(3,1)
-todos.splice(3,1)
-<<<<<<< HEAD
-todos.splice(3,2)
->>>>>>> version1-Arrays
-=======
-
-// version 2 - Functions
-
-var todos = ['item 1', 'item 2', 'item 3']
-
-// it should have a function to display todos
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// it should have a function to add todos
-
-
-// it should have a function to change todos
-
-
-// it should have a function to delete todos
-
-
-
-
->>>>>>> 596e2642947d29d64ea4f09f525dadb1c33cea50
