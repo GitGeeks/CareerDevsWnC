@@ -1,9 +1,9 @@
 // begin
 // Version 1 - Arrays -- requirements
-// it should have a way to store todos
+// it should have a way to store todos AS OBJECTS
 
 
-
+	
 
 
 
