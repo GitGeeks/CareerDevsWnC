@@ -11,24 +11,15 @@
 
 
 
+var todoList = {
+	todos: ['item 1', 'item 2', 'item 3'],
 
-
-
-
-
-var todos = ['item 1', 'item 2', 'item 3']
+	displayTodos: function() {
+		console.log('My todos: ', this.todos)
+	}
+}
 
 // it should have a FUNCTION to display todos
-
-
-
-
-
-
-
-
-
-
 
 
 function displayTodos() {
