@@ -2,13 +2,9 @@
 // Version 4 - Booleans
 
 // it should have a way to store todos AS OBJECTS
-
-// it should have a METHOD to display todos AS OBJECTS
-	
+// it should have a METHOD to display todos AS OBJECTS	
 // it should have a METHOD to add todos AS OBJECTS
-
 // it should have a METHOD to change todos AS OBJECTS
-
 // it should have a METHOD to delete todos in the OBJECT
 
 
