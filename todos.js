@@ -15,10 +15,10 @@ todoList = {
 	displayTodos: function() {
 
 		if (this.todos.length === 0 ) {
-			console.log("\n There are no todos.");
+			console.log("\nThere are no todos.");
 		} else {
 
-			console.log("\n My todos: ")
+			console.log("\nMy todos: ")
 			for (var i = 0; i < this.todos.length; i++) {
 
 				if (this.todos[i].completed === true) {
@@ -61,7 +61,30 @@ todoList = {
 		console.log(this.displayTodos());
 	},
 
-	
+	toggleAll: function() {
+		var allTodos = this.todos.length;
+		var completedCount = 0;
+
+		for (var td = 0; td < allTodos; td++) {
+			if (this.todos[td].completed === true) {
+				completedCount++;
+			} 
+		}
+
+		if (allTodos === completedCount) {
+			// make all false
+			for (var td = 0; td < allTodos; td++) {
+				this.todos[td].completed = false;
+			} 
+
+		} else {
+			for (var td = 0; td < allTodos; td++) {
+				this.todos[td].completed = true;
+			} 
+		}
+	}
+
+};
 
 
 /* 
@@ -72,8 +95,6 @@ todoList.addTodo('Item 1')
 todoList.addTodo('Item 2')
 todoList.addTodo('Item 3')
 todoList.addTodo('Item 4')
-//
-
+todoList.toggleCompleted(0)
 
  */
-
