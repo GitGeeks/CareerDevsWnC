@@ -96,5 +96,6 @@ todoList.addTodo('Item 2')
 todoList.addTodo('Item 3')
 todoList.addTodo('Item 4')
 todoList.toggleCompleted(0)
+todoList.toggleAll(0)
 
  */
