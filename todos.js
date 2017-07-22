@@ -86,12 +86,12 @@ todoList = {
 
 };
 
-// var displayTodosButton = document.getElementById('displayTodosButton');
-// console.log(displayTodosButton);
+var displayTodosButton = document.getElementById('displayTodosButton');
+console.log(displayTodosButton);
 
-// displayTodosButton.addEventListener('click', function() {
-// 	todoList.displayTodos();
-// });
+displayTodosButton.addEventListener('click', function() {
+	todoList.displayTodos();
+});
 
 /* 
 
